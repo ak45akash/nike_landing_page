@@ -8,7 +8,7 @@ const ReviewCard = ({ imgURL, customerName, rating, feedback }) => {
         {feedback}
       </p>
       <div className="mt-3 flex justify-center items-center gap-2.5">
-        <img src={star} width={24} height={24} className="object-contain m-0" alt="" />
+        <img src={star} width={24} height={24} className="object-contain m-0" alt="Star icon" />
         <p className="text-xl font-montserrat text-slate-gray">
             ({rating})
         </p>
